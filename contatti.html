@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Gruppo di studio virtuale</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="images/logo.jpg" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <script src="script.js" defer></script>
+    <script src="login_script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div id="menu" class="nav_height">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <div id="dropdown_menu" class="hidden">
+        <a href="index.html">
+          <div class="border_top">Home</div>
+        </a>
+        <a href="classroom.html">
+          <div>Studiamo insieme</div>
+        </a>
+        <a href="contatti.html">
+          <div class="dropdown_menu_active">Contatti</div>
+        </a>
+      </div>
+      <nav id="navbar">
+        <div>
+          <a href="index.html"
+          ><img class="middle" id="logo" src="Images/logo.png" alt=""
+          /></a>
+          <a class="main_option" href="index.html">Home</a>
+          <a class="main_option" href="classroom.html">Studiamo insieme</a>
+          <a class="main_option active" href="contatti.html">Contatti</a>
+        </div>
+        <div>
+          <a class="sign_in">Accedi</a>
+        </div>
+      </nav>
+    </header>
+
+    <form id="sign_in_form" class="hidden" method="POST">
+        <img id="close_form" src="images/x.png" />
+      <h1 class="th">Accedi</h1>
+      <label class="tl">Email<br /></label>
+      <input
+        type="email"
+        id="txtemail"
+        name="email"
+        value=""
+        placeholder="inserisci l'email" /><br />
+      <label class="tl">Password<br /></label>
+      <input
+        type="password"
+        id="txtpassword"
+        name="password"
+        value=""
+        placeholder="inserisci la password" /><br />
+      <button type="button" id="id_submit" class="tb">Accedi</button>
+    </form>
+
+    <div id="blur">
+      <br />
+      <h2 align="center">Vieni a trovarci presso la nostra sede:</h2>
+      <br />
+      <iframe
+        class="maps"
+        id="gmap_canvas"
+        src="https://maps.google.com/maps?width=1920&amp;height=500&amp;hl=it&amp;q=37.8294444,15.2362222%20+(sede)&amp;t=k&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+      <script type="text/javascript"></script>
+      <h3 align="center">
+        Per qualsiasi informazione non esitare a contattarci ai sequenti
+        recapiti:
+      </h3>
+      <br />
+      <div class="colored_background"        >
+      <p align="center">
+        <a class="co" href="tel:+390956136030">fisso: 095-6136030</a>
+        <br />
+        <br />
+        <a class="co" href="mailto:ctis03300r@istruzione.it"
+          >email: ctis03300r@istruzione.it</a
+        >
+        <br />
+        <br />
+        <a class="co" href="mailto:ctis03300r@pec.istruzione.it"
+          >pec: ctis03300r@pec.istruzione.it</a
+        >
+      </p>
+      <br /><br /><br />
+    </div>
+  </section>
+  </body>
+</html>

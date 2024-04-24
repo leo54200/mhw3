@@ -1,0 +1,112 @@
+#flexcontainer_guys {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  bottom: 0px;
+}
+
+#chat {
+  display: inline-block;
+  width: 58%;
+  margin-bottom: 0px;
+}
+
+#bot_answer {
+  border-radius: 10px;
+  width: 96%;
+  margin: auto;
+  border: 2px solid black;
+}
+
+#bar {
+  margin: auto;
+  width: 95%;
+  border: 2px solid black;
+  text-align: start;
+  padding: 4px 0px;
+}
+.guy {
+  width: 30%;
+  margin-bottom: -40vh;
+}
+.guy1_3 {
+  width: 30%;
+  margin-bottom: -45vh;
+}
+
+#table {
+  width: 100%;
+  height: 40vh;
+}
+
+#history_box {
+  max-height: 66vh;
+  overflow-y: auto; /* Abilita la barra di scorrimento verticale quando il contenuto supera l'altezza del div */
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.09);
+  width: 40%;
+  margin-bottom: 0;
+  border: 2px solid black;
+}
+
+.history_box_title {
+  text-align: center;
+  font-weight: bold;
+  padding: 18px;
+  background-color: rgba(0, 0, 0, 0.15);
+  margin: 0;
+}
+.right {
+  margin-left: auto;
+  text-align: left;
+  background-color: #93bedf;
+  width: fit-content;
+  max-width: 80%;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.left {
+  margin-right: auto;
+  text-align: left;
+  background-color: hsla(206, 54%, 73%, 0.4);
+  width: fit-content;
+  max-width: 80%;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.username {
+  font-size: 0.7em;
+  font-weight: lighter;
+  padding: 0px;
+}
+
+#next_button {
+  margin: auto;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  width: 32vw;
+  height: 10vh;
+  background-color: #4255ff;
+  color: white;
+  font-size: 1em;
+}
+/*
+textarea {
+  resize: none;
+  overflow-y: auto;
+  display: inline;
+  width: 90%;
+  padding: 0.6em;
+  font-size: 1em;
+  border: outset 3px;
+  outline: none;
+  border-radius: 12px;
+  max-height: 3em;
+  overflow-y: auto;
+  font-weight: none;
+  margin: 5px;
+}*/
