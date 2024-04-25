@@ -137,7 +137,7 @@ input_message.addEventListener("keypress", enter_message_handler);
 //OpenAI API
 let chatHistory = []; // Inizializzare una variabile per memorizzare la cronologia della chat
 
-const OPENAI_API_KEY = "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";
+const OPENAI_API_KEY = "YOUR API KEY";
 
 async function getOpenAIResponse(userInput, model = "gpt-4") {
   const API_URL = "https://api.openai.com/v1/chat/completions";
